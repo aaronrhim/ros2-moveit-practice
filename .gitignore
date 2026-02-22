@@ -30,6 +30,9 @@ nmealog.txt
 *.gv
 
 # moveit2 installation
+src/
+
 build/
 install/
 log/
+src/
