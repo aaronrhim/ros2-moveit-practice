@@ -1,6 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:104: CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

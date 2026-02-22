@@ -1,5 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/build.make:76: local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/src/forward_trajectory.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:510: local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....

@@ -1,9 +1,0 @@
-[  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
-[  1%] Built target moveit_rviz_plugin_render_tools_autogen
-[35m[1mConsolidate compiler generated dependencies of target moveit_rviz_plugin_render_tools[0m
-[  3%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_scene_render.cpp.o[0m
-[  5%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o[0m
-[  6%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o[0m
-[  8%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/render_shapes.cpp.o[0m
-[ 10%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_link_updater.cpp.o[0m
-[ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/robot_state_visualization.cpp.o[0m

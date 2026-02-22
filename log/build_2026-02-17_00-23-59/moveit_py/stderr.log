@@ -1,4 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/planning.dir/build.make:118: CMakeFiles/planning.dir/src/moveit/moveit_ros/planning_scene_monitor/planning_scene_monitor.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
