@@ -1,0 +1,17 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:90: CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:104: CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:76: CMakeFiles/trajectory_generation_common.dir/src/trajectory_functions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:328: CMakeFiles/trajectory_generation_common.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/joint_limits_common.dir/build.make:76: CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:302: CMakeFiles/joint_limits_common.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

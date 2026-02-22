@@ -1,0 +1,35 @@
+# More documention for how to create containers:
+# https://docs.ros.org/en/humble/How-To-Guides/Run-2-nodes-in-single-or-separate-docker-containers.html
+
+# version: '2' # idk why this not working
+
+services:
+  rover_practice: # GUI support + NVIDIA GPU support
+    container_name: rover_practice
+    image: roverflake2:practice
+    working_dir: /RoverFlake2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    runtime: nvidia
+    environment:
+      - DISPLAY=${DISPLAY}
+      - XAUTHORITY=/tmp/.docker.xauth # auto accept
+      - ROVERFLAKE_ROOT=/RoverFlake2
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - __GLX_VENDOR_LIBRARY_NAME=nvidia
+    volumes:
+      - ./:/RoverFlake2
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/.docker.xauth:/tmp/.docker.xauth
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    tty: true
+    stdin_open: true
+    network_mode: host

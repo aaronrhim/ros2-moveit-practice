@@ -1,0 +1,6 @@
+Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/rosparam_shortcuts
+Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/rosparam_shortcuts
+Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/rosparam_shortcuts -- -j32 -l32
+Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/rosparam_shortcuts -- -j32 -l32
+Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/rosparam_shortcuts
+Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/rosparam_shortcuts

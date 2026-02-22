@@ -1,0 +1,15 @@
+[submodule "src/external_pkgs/serial"]
+	path = src/external_pkgs/serial
+	url = https://github.com/RoverRobotics-forks/serial-ros2.git
+[submodule "src/external_pkgs/moteus_ros2"]
+	path = src/external_pkgs/moteus_ros2
+	url = https://github.com/mjbots/moteus_ros2
+[submodule "src/external_pkgs/Catch2"]
+	path = src/external_pkgs/Catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "src/arm_hardware_interface/moteus"]
+	path = src/arm_hardware_interface/moteus
+	url = https://github.com/mjbots/moteus.git
+[submodule "src/launch_param_builder"]
+	path = src/launch_param_builder
+	url = https://github.com/PickNikRobotics/launch_param_builder

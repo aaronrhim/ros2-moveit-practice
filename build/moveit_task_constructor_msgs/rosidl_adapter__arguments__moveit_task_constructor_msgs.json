@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/RoverFlake2/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

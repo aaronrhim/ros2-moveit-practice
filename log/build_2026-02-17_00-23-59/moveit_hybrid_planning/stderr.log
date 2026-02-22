@@ -1,0 +1,22 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/build.make:76: local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/src/local_planner_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:458: local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [global_planner/global_planner_component/CMakeFiles/moveit_global_planner_component.dir/build.make:76: global_planner/global_planner_component/CMakeFiles/moveit_global_planner_component.dir/src/global_planner_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:406: global_planner/global_planner_component/CMakeFiles/moveit_global_planner_component.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/build.make:76: global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/src/moveit_planning_pipeline.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:432: global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/build.make:76: local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/src/forward_trajectory.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:510: local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/build.make:76: hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/src/hybrid_planning_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:327: hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

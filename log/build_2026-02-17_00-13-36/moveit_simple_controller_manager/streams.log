@@ -1,0 +1,87 @@
+[0.021s] Invoking command in '/RoverFlake2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /RoverFlake2/src/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_simple_controller_manager
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.278s] -- Found moveit_common: 2.5.9 (/RoverFlake2/install/moveit_common/share/moveit_common/cmake)
+[0.286s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.533s] -- Found moveit_core: 2.5.9 (/RoverFlake2/install/moveit_core/share/moveit_core/cmake)
+[0.726s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.785s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.827s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.832s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.841s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.868s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.917s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.937s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.948s] -- Found Threads: TRUE  
+[1.002s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.025s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.122s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.180s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.181s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.397s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.416s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.421s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.438s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.438s] -- Configured cppcheck include dirs: /RoverFlake2/src/moveit2/moveit_plugins/moveit_simple_controller_manager/include
+[1.438s] -- Configured cppcheck exclude dirs and/or files: 
+[1.439s] -- Added test 'lint_cmake' to check CMake code style
+[1.439s] -- Added test 'xmllint' to check XML markup files
+[1.440s] -- Configuring done
+[1.460s] -- Generating done
+[1.465s] -- Build files have been written to: /RoverFlake2/build/moveit_simple_controller_manager
+[1.474s] Invoked command in '/RoverFlake2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /RoverFlake2/src/moveit2/moveit_plugins/moveit_simple_controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_simple_controller_manager
+[1.476s] Invoking command in '/RoverFlake2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /RoverFlake2/build/moveit_simple_controller_manager -- -j32 -l32
+[1.517s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/moveit_simple_controller_manager.cpp.o[0m
+[1.518s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o[0m
+[8.858s] [100%] [32m[1mLinking CXX shared library libmoveit_simple_controller_manager.so[0m
+[9.028s] [100%] Built target moveit_simple_controller_manager
+[9.036s] Invoked command in '/RoverFlake2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /RoverFlake2/build/moveit_simple_controller_manager -- -j32 -l32
+[9.038s] Invoking command in '/RoverFlake2/build/moveit_simple_controller_manager': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /RoverFlake2/build/moveit_simple_controller_manager
+[9.042s] -- Install configuration: "Release"
+[9.042s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.9
+[9.043s] -- Set runtime path of "/RoverFlake2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.9" to ""
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/gripper_controller_handle.h
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/empty_controller_handle.h
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.sh
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.dsv
+[9.044s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/moveit_simple_controller_manager_plugin_description.xml
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/ament_index/resource_index/package_run_dependencies/moveit_simple_controller_manager
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/ament_index/resource_index/parent_prefix_path/moveit_simple_controller_manager
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.sh
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.dsv
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.sh
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.dsv
+[9.045s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.bash
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.sh
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.zsh
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.dsv
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.dsv
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/ament_index/resource_index/packages/moveit_simple_controller_manager
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_simple_controller_manager
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport.cmake
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport-release.cmake
+[9.046s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ConfigExtras.cmake
+[9.047s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[9.047s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.047s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake
+[9.047s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake
+[9.047s] -- Installing: /RoverFlake2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.xml
+[9.048s] Invoked command in '/RoverFlake2/build/moveit_simple_controller_manager' returned '0': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /RoverFlake2/build/moveit_simple_controller_manager

@@ -1,0 +1,12 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:328: ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:216: ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space_factory.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_interface.dir/build.make:104: ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:186: ompl_interface/CMakeFiles/moveit_ompl_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

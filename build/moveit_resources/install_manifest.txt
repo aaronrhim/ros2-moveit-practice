@@ -1,0 +1,15 @@
+/RoverFlake2/install/moveit_resources/share/ament_index/resource_index/package_run_dependencies/moveit_resources
+/RoverFlake2/install/moveit_resources/share/ament_index/resource_index/parent_prefix_path/moveit_resources
+/RoverFlake2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.sh
+/RoverFlake2/install/moveit_resources/share/moveit_resources/environment/ament_prefix_path.dsv
+/RoverFlake2/install/moveit_resources/share/moveit_resources/environment/path.sh
+/RoverFlake2/install/moveit_resources/share/moveit_resources/environment/path.dsv
+/RoverFlake2/install/moveit_resources/share/moveit_resources/local_setup.bash
+/RoverFlake2/install/moveit_resources/share/moveit_resources/local_setup.sh
+/RoverFlake2/install/moveit_resources/share/moveit_resources/local_setup.zsh
+/RoverFlake2/install/moveit_resources/share/moveit_resources/local_setup.dsv
+/RoverFlake2/install/moveit_resources/share/moveit_resources/package.dsv
+/RoverFlake2/install/moveit_resources/share/ament_index/resource_index/packages/moveit_resources
+/RoverFlake2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+/RoverFlake2/install/moveit_resources/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+/RoverFlake2/install/moveit_resources/share/moveit_resources/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/RoverFlake2/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_common
+Invoked command in '/RoverFlake2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_common
+Invoking command in '/RoverFlake2/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/moveit_common -- -j32 -l32
+Invoked command in '/RoverFlake2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/moveit_common -- -j32 -l32
+Invoking command in '/RoverFlake2/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/moveit_common
+Invoked command in '/RoverFlake2/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/moveit_common

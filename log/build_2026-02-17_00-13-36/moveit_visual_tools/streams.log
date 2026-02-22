@@ -1,0 +1,90 @@
+[0.020s] Invoking command in '/RoverFlake2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/moveit_configs_utils:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/RoverFlake2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_ros_planning/lib:/RoverFlake2/install/moveit_ros_occupancy_map_monitor/lib:/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/moveit_configs_utils/lib/python3.10/site-packages:/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:/RoverFlake2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /RoverFlake2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_visual_tools
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.257s] -- Found moveit_common: 2.5.9 (/RoverFlake2/install/moveit_common/share/moveit_common/cmake)
+[0.265s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.547s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[0.557s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.669s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[0.681s] -- Found moveit_core: 2.5.9 (/RoverFlake2/install/moveit_core/share/moveit_core/cmake)
+[0.838s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.878s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.915s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.918s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.936s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.945s] -- Found Threads: TRUE  
+[0.979s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.997s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.067s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.118s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.118s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.316s] -- Found moveit_ros_planning: 2.5.9 (/RoverFlake2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.319s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.335s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[1.375s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.386s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.387s] -- Found OGRE
+[1.387s] --   static     : OFF
+[1.388s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.388s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.388s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.388s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.388s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.388s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.388s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.388s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.388s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.388s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.388s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.389s] -- Could not find freeimage library
+[1.403s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.406s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.485s] -- Found X11: /usr/include   
+[1.485s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.567s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.567s] -- Looking for gethostbyname
+[1.631s] -- Looking for gethostbyname - found
+[1.632s] -- Looking for connect
+[1.698s] -- Looking for connect - found
+[1.698s] -- Looking for remove
+[1.787s] -- Looking for remove - found
+[1.787s] -- Looking for shmat
+[1.892s] -- Looking for shmat - found
+[1.892s] -- Looking for IceConnectionNumber in ICE
+[2.010s] -- Looking for IceConnectionNumber in ICE - found
+[2.234s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.303s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.306s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.315s] -- Added test 'lint_cmake' to check CMake code style
+[2.315s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.317s] -- Added test 'xmllint' to check XML markup files
+[2.326s] -- Configuring done
+[2.515s] -- Generating done
+[2.538s] -- Build files have been written to: /RoverFlake2/build/moveit_visual_tools
+[2.580s] Invoked command in '/RoverFlake2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/moveit_configs_utils:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/RoverFlake2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_ros_planning/lib:/RoverFlake2/install/moveit_ros_occupancy_map_monitor/lib:/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/moveit_configs_utils/lib/python3.10/site-packages:/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:/RoverFlake2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /RoverFlake2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/moveit_visual_tools
+[2.585s] Invoking command in '/RoverFlake2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/moveit_configs_utils:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/RoverFlake2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/RoverFlake2/install/moveit_ros_planning:/RoverFlake2/install/moveit_ros_occupancy_map_monitor:/RoverFlake2/install/moveit_core:/RoverFlake2/install/moveit_resources_panda_moveit_config:/RoverFlake2/install/srdfdom:/RoverFlake2/install/moveit_resources_pr2_description:/RoverFlake2/install/moveit_resources_panda_description:/RoverFlake2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/RoverFlake2/install/moveit_ros_planning/lib:/RoverFlake2/install/moveit_ros_occupancy_map_monitor/lib:/RoverFlake2/install/moveit_core/lib:/RoverFlake2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/RoverFlake2/install/moveit_core/bin:${PATH} PYTHONPATH=/RoverFlake2/install/moveit_configs_utils/lib/python3.10/site-packages:/RoverFlake2/install/srdfdom/local/lib/python3.10/dist-packages:/RoverFlake2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /RoverFlake2/build/moveit_visual_tools -- -j32 -l32
+[2.800s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[2.800s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[2.802s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[103.133s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[103.137s] compilation terminated.
+[103.137s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:104: CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o] Error 1
+[103.137s] gmake[2]: *** Waiting for unfinished jobs....
+[122.438s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Error 2
+[122.439s] gmake: *** [Makefile:146: all] Error 2

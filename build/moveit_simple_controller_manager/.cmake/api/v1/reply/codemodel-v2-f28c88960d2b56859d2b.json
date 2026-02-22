@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-840ac8c14a25b6722c1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_simple_controller_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_simple_controller_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_simple_controller_manager-Release-b959e935f405a5ae76c2.json",
+					"name" : "moveit_simple_controller_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_simple_controller_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_simple_controller_manager_uninstall-Release-b255c8b5de17d64e0944.json",
+					"name" : "moveit_simple_controller_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e82079d5efa987456cd7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/RoverFlake2/build/moveit_simple_controller_manager",
+		"source" : "/RoverFlake2/src/moveit2/moveit_plugins/moveit_simple_controller_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

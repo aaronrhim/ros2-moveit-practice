@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/RoverFlake2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen",
+	"CMAKE_BINARY_DIR" : "/RoverFlake2/build/moveit_task_constructor_visualization",
+	"CMAKE_CURRENT_BINARY_DIR" : "/RoverFlake2/build/moveit_task_constructor_visualization/motion_planning_tasks/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src",
+	"CMAKE_SOURCE_DIR" : "/RoverFlake2/src/moveit_task_constructor/visualization",
+	"INCLUDE_DIR" : "/RoverFlake2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include",
+	"INPUTS" : 
+	[
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/tasks.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/updownarrow.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/add.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/generatearrow.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/failed.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/downarrow.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/success.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/connectarrow.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/new-stage.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/settings.png",
+		"/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/uparrow.png"
+	],
+	"LOCK_FILE" : "/RoverFlake2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/RoverFlake2/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/RoverFlake2/src/moveit_task_constructor/visualization/motion_planning_tasks/src/resources.qrc",
+	"VERBOSITY" : 0
+}

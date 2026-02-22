@@ -1,0 +1,112 @@
+[0.184s] Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/rosparam_shortcuts
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.407s] -- Detecting CXX compile features
+[0.407s] -- Detecting CXX compile features - done
+[0.410s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.600s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.609s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.611s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.645s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.650s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.659s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.741s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.758s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.766s] -- Looking for pthread.h
+[0.818s] -- Looking for pthread.h - found
+[0.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.872s] -- Found Threads: TRUE  
+[0.904s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.988s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.990s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.991s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[0.993s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.995s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.008s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.012s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.012s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.012s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.012s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.027s] -- Found PythonExtra: .so  
+[1.087s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.093s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.094s] -- Added test 'lint_cmake' to check CMake code style
+[1.095s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.096s] -- Added test 'xmllint' to check XML markup files
+[1.097s] -- Configuring done
+[1.121s] -- Generating done
+[1.130s] -- Build files have been written to: /RoverFlake2/build/rosparam_shortcuts
+[1.144s] Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoverFlake2/src/rosparam_shortcuts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/RoverFlake2/install/rosparam_shortcuts
+[1.146s] Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/rosparam_shortcuts -- -j32 -l32
+[1.197s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.198s] [ 15%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[1.199s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.199s] [ 30%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[1.877s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.911s] [ 38%] Built target gtest_main
+[6.444s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.468s] [ 46%] Built target gtest
+[6.598s] [ 53%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[6.666s] [ 53%] Built target rosparam_shortcuts
+[6.678s] [ 61%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[6.678s] [ 69%] [32mBuilding CXX object CMakeFiles/test_node_parameters.dir/test/test_node_parameters.cpp.o[0m
+[6.679s] [ 76%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[9.070s] [ 84%] [32m[1mLinking CXX executable node_parameters_example[0m
+[9.074s] [ 92%] [32m[1mLinking CXX executable example[0m
+[9.140s] [ 92%] Built target rosparam_shortcuts_node_parameters_example
+[9.141s] [ 92%] Built target rosparam_shortcuts_example
+[9.806s] [100%] [32m[1mLinking CXX executable test_node_parameters[0m
+[9.879s] [100%] Built target test_node_parameters
+[9.886s] Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoverFlake2/build/rosparam_shortcuts -- -j32 -l32
+[9.888s] Invoking command in '/RoverFlake2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/rosparam_shortcuts
+[9.892s] -- Install configuration: "Release"
+[9.892s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[9.892s] -- Set runtime path of "/RoverFlake2/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+[9.892s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[9.893s] -- Set runtime path of "/RoverFlake2/install/rosparam_shortcuts/lib/rosparam_shortcuts/example" to ""
+[9.893s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[9.893s] -- Set runtime path of "/RoverFlake2/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example" to ""
+[9.893s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/include
+[9.893s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/include/rosparam_shortcuts
+[9.893s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[9.893s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[9.894s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[9.895s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-release.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[9.896s] -- Installing: /RoverFlake2/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[9.898s] Invoked command in '/RoverFlake2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoverFlake2/build/rosparam_shortcuts

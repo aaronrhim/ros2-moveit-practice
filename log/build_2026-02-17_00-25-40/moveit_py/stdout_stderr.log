@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_py_utils[0m
+[  0%] Built target ament_cmake_python_copy_moveit
+[  4%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/ros_msg_typecasters.cpp.o[0m
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_moveit_egg
