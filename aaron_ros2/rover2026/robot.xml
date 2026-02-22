@@ -1,0 +1,133 @@
+<mujoco model="rover">
+    <default>
+        <joint limited="true" damping="0.1"/>
+        <geom condim="4" contype="1" conaffinity="1" />
+
+        <default class="arm_joint">
+            <joint type="hinge" limited="true" damping="0.1"/>
+        </default>
+
+        <default class="collision">
+            <geom group="0" rgba="0.7 0.7 0.7 1" type="mesh" />
+        </default>
+        
+        <default class="visual">
+            <geom group="1" material="default_material" type="mesh" />
+        </default>
+    </default>
+    
+    <compiler angle="radian" eulerseq="xyz"/>
+
+    <asset>
+        <material name="default_material" rgba="0.7 0.7 0.7 1"/>
+        <mesh name="base_link" file="meshes/base_link.stl" />
+        <mesh name="a1_shoulder_base" file="meshes/a1_shoulder_base.stl" />
+        <mesh name="a2_link_1" file="meshes/a2_link_1.stl" />
+        <mesh name="a3_axis4_housing" file="meshes/a3_axis4_housing.stl" />
+        <mesh name="a4_link2" file="meshes/a4_link2.stl" />
+        <mesh name="a5_internal_upright" file="meshes/a5_internal_upright.stl" />
+        <mesh name="a6_EE_holder" file="meshes/a6_EE_holder.stl" />
+    </asset>
+
+    <worldbody>
+        <body name="base_link" pos="0 0 0">
+            <geom class="collision" mesh="base_link"/>
+            <geom class="visual" mesh="base_link"/>
+            <inertial
+                pos="0.0803862782392977 0.138938324698901 0.00237750848221769"
+                mass="0.763817421365748"
+                diaginertia="0.00365550963890374 0.00157214217192498 0.00520465242815667"/>
+
+            <body name="a1_shoulder_base" pos="0.0875 0.17 0.0381" quat="-1 0 0 0">
+                <joint name="shoulder_joint" class="arm_joint" axis="0 0 1" range="-10 10" />
+                <!-- Disabled collision on shoulder to prevent collision with pedestal mount -->
+                <geom class="collision" mesh="a1_shoulder_base" contype="0" conaffinity="0"/>
+                <geom class="visual" mesh="a1_shoulder_base" contype="0" conaffinity="0"/>
+                <inertial
+                    pos="0.00027861641831084 -0.0233439437845335 0.0413589730530282"
+                    mass="1.2159845169735"
+                    diaginertia="0.00146671121305877 0.000864137178979533 0.00108466557650932"/>
+
+                <body name="a2_link_1" pos="0.002825 -0.045 0.075" quat="0.5 0.5 -0.5 -0.5">
+                    <joint name="link_1_joint" class="arm_joint" axis="0 0 1" range="-6.28 0" />
+                    <geom class="collision" mesh="a2_link_1"/>
+                    <geom class="visual" mesh="a2_link_1"/>
+                    <inertial
+                        pos="-0.324316065490712 -8.82283367659165E-05 -0.00312305140232091"
+                        mass="2.37795713621316"
+                        diaginertia="0.00258780670386834 0.0394251082116644 0.0405572027877698"/>
+
+                    <body name="a3_axis4_housing" pos="-0.500 0 -0.063039642892861" quat="0 0.7071 0 -0.7071">
+                        <joint name="link1_link2" class="arm_joint" axis="-1 0 0" range="-3.14 3.14"/>
+                        <geom class="collision" mesh="a3_axis4_housing" />
+                        <geom class="visual" mesh="a3_axis4_housing"/>
+                        <inertial
+                            pos="0.0466211562050391 0.00818126323673461 0.0161470492830732"
+                            mass="0.405543595440366"
+                            diaginertia="0.000697940268173563 0.000449834279179675 0.000430824953350791"/>
+
+                        <body name="a4_link2" pos="0.0497860905660309 0.148506406755493 0.186703382508224" quat="0.658 -0.256 -0.658 0.256">
+                            <joint name="a4_rotation" class="arm_joint" axis="-1 0 0" range="-1.57 1.57" />
+                            <!-- Disabled collision to prevent self-collision with wrist -->
+                            <geom class="collision" mesh="a4_link2" contype="0" conaffinity="0"/>
+                            <geom class="visual" mesh="a4_link2" contype="0" conaffinity="0"/>
+                            <inertial
+                                pos="0.0859436753269209 0.000520432616544109 -0.000231377005323458"
+                                mass="1.69468727862981"
+                                diaginertia="0.0014685385115831 0.00851214875637219 0.00918980958127426"/>
+
+                            <body name="a5_internal_upright" pos="0.241736998075445 0 0.0240007334588877" quat="0.658 0.256 0.658 -0.256">
+                                <joint name="a5_rotation" class="arm_joint" axis="1 0 0" range="-3.14 3.14" />
+                                <!-- Disabled collision to prevent self-collision with wrist -->
+                                <geom class="collision" mesh="a5_internal_upright" contype="0" conaffinity="0"/>
+                                <geom class="visual" mesh="a5_internal_upright" contype="0" conaffinity="0"/>
+                                <inertial
+                                    pos="0.0248892665074707 0.00880117848885809 0.00583694857701647"
+                                    mass="0.167323738643551"
+                                    diaginertia="0.000139240659778515 0.000151677157680944 0.000143582597351709"/>
+
+                                <body name="a6_EE_holder" pos="0.0249999999999973 0.0872905492585429 0.0572248321024004" quat="0.650 -0.276 -0.650 0.276">
+                                    <joint name="a6_rotation" type="hinge" axis="-1 0 0" limited="false" />
+                                    <!-- Disabled collision to prevent self-collision with wrist -->
+                                    <geom class="collision" mesh="a6_EE_holder" contype="0" conaffinity="0"/>
+                                    <geom class="visual" mesh="a6_EE_holder" contype="0" conaffinity="0"/>
+                                    <inertial
+                                        pos="-0.0339647464842324 0.000122037593266067 0.000177794121861106"
+                                        mass="0.378687643103429"
+                                        diaginertia="0.000462382976687633 0.00029700747719619 0.000295719425696946"/>
+
+                                    <body name="right_hand" pos="0.1 0 0" euler="0 1.57 0">
+                                        <site name="right_hand" pos="0 0 0" size="0.01" rgba="1 0 0 1" group="1"/>
+                                        <camera name="eye_in_hand" pos="0 0 0.1" euler="0 3.14 0" fovy="75"/>
+                                        <site name="right_center" pos="0 0 0" size="0.01" rgba="0 1 0 1" group="1"/>
+                                        <site name="grip_site" pos="0 0 0" size="0.01" rgba="0 0 1 1" group="1"/>
+                                        <site name="ee_center" pos="0 0 0" size="0.01" rgba="0 1 0 1" group="1"/>
+                                    </body>
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+            </body>
+        </body>
+    </worldbody>
+
+    <contact>
+        <exclude body1="base_link" body2="a1_shoulder_base"/>
+        <exclude body1="a1_shoulder_base" body2="a2_link_1"/>
+        <exclude body1="base_link" body2="a2_link_1"/>
+        <exclude body1="base_link" body2="a3_axis4_housing"/>
+        <exclude body1="base_link" body2="a4_link2"/>
+        <exclude body1="a1_shoulder_base" body2="a3_axis4_housing"/>
+        <exclude body1="a1_shoulder_base" body2="a4_link2"/>
+    </contact>
+
+    <actuator>
+        <motor name="shoulder_joint" joint="shoulder_joint" ctrllimited="true" ctrlrange="-87.0 87.0" gear="1"/>
+        <motor name="link_1_joint" joint="link_1_joint" ctrllimited="true" ctrlrange="-87.0 87.0" gear="1"/>
+        <motor name="link1_link2" joint="link1_link2" ctrllimited="true" ctrlrange="-87.0 87.0" gear="1"/>
+        <motor name="a4_rotation" joint="a4_rotation" ctrllimited="true" ctrlrange="-87.0 87.0" gear="1"/>
+        <motor name="a5_rotation" joint="a5_rotation" ctrllimited="true" ctrlrange="-12.0 12.0" gear="1"/>
+        <motor name="a6_rotation" joint="a6_rotation" ctrllimited="true" ctrlrange="-12.0 12.0" gear="1"/>
+    </actuator>
+</mujoco>
