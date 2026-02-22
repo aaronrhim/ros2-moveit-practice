@@ -23,6 +23,8 @@ services:
       - ./:/RoverFlake2
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /tmp/.docker.xauth:/tmp/.docker.xauth
+    devices:
+      - "/dev/input:/dev/input/"
     deploy:
       resources:
         reservations:
