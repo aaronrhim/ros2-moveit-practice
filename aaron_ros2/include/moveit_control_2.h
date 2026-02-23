@@ -11,6 +11,9 @@
 #include "arm_constants_2.h"
 #include "rover_msgs/msg/arm_command.hpp"
 
+using namespace Rover2026Arm;
+using std::placeholders::_1;
+
 // path planning
 #include "sensor_msgs/msg/joint_state.hpp"
 #include "control_msgs/msg/joint_trajectory_controller_state.hpp"
@@ -46,7 +49,7 @@ class ArmMoveitControl2 : public rclcpp::Node {
             joy_subscriber = this->create_subscription<sensor_msgs::msg::Joy>(
                 ArmConstants::joy_topic, 3, std::bind(&ArmMoveitControl2::joyCallback, this, _1));
             servo_subscriber = this->create_subscription<trajectory_msgs::msg::JointTrajectory>(
-                ArmConstants::servo_topic, 3, std::bind(&ArmMoveitControl2::servoCallback, this, _1));
+                ArmConstants::servo_fk_topic, 3, std::bind(&ArmMoveitControl2::servoCallback, this, _1));
         }
 
     int count_ = 0;    
@@ -80,6 +83,19 @@ class ArmMoveitControl2 : public rclcpp::Node {
         rclcpp::Subscription<trajectory_msgs::msg::JointTrajectory>::SharedPtr servo_subscriber;
 
         rclcpp::TimerBase::SharedPtr timer_;
+
+        float radToDeg(float rad) {
+            return (rad * 180.0) / PI;
+        }
+
+        float moveitToFirmwareOffset(float rad, int i) {
+            float deg = (rad - joint_states[i].zero_rad) * joint_states[i].dir;
+            return radToDeg(deg);
+        }
+
+        float moveitVelocityToFirmwareOffset(float rad, int i) {
+            return radToDeg(rad) * joint_states[i].dir;
+        }
 
         void jointStateCallback(const sensor_msgs::msg::JointState::SharedPtr msg) {
             RCLCPP_INFO(this->get_logger(), "Received joint state callback");
@@ -123,6 +139,6 @@ class ArmMoveitControl2 : public rclcpp::Node {
                 joint_states[i].velocity = moveitVelocityToFirmwareOffset(msg->points[0].velocities[i], i);
             }
 
-            publisher_->publish(target); // publish to motors
+            arm_publisher_->publish(target); // publish to motors
         }
 };
